@@ -67,7 +67,7 @@ advice_type = st.selectbox("What kind of advice do you need?", [
 # Advice Button
 if st.button("Get Strategic Advice"):
     if problem and solution:
-        with st.spinner(f"Generating strategic advice on {advice_type}..."):
+        with st.spinner(f"Generating strategic advice on {advice_type}...", show_time=True):
             advice_response = agent.advice(problem=problem, solution=solution, focus=advice_type)
         if advice_response:
             st.subheader(f"Strategic Advice: {advice_type}")

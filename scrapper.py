@@ -12,22 +12,23 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def getRelevantLinks(query: str):
-    params = {
-        "engine": "google",
-        "location":"India", 
-        "q": query,
-        "num": "3",
-        "api_key": os.environ.get("SERP_API_KEY")
-    }
+    try:
+        params = {
+            "engine": "google",
+            "location":"India", 
+            "q": query,
+            "num": "3",
+            "api_key": os.environ.get("SERP_API_KEY")
+        }
 
-    search = GoogleSearch(params)
-    if search:
+        search = GoogleSearch(params)
         results = search.get_dict()
         organic_results = results["organic_results"]
-        # with open("sample_result.json", "w") as file:
-        #     json.dump(organic_results, file, indent=4)
+
         return organic_results
-    else:
+        
+    except Exception as e:
+        print(e)
         return getRelevantLinks(query)
 
 
@@ -47,10 +48,10 @@ def findMarket(market: str):
     time.sleep(1)
     accept_cookies_btn = driver.find_element(By.ID, "onetrust-accept-btn-handler")
     accept_cookies_btn.click()
-    time.sleep(2)
+    time.sleep(1)
 
     search_input = driver.find_element(By.CSS_SELECTOR, "input.marketingHubPageSearch__searchInput")
-    search_input.send_keys(market)
+    search_input.send_keys(f"{market}\n")
     time.sleep(2)
     
     try:
@@ -61,6 +62,7 @@ def findMarket(market: str):
             href = result.get_attribute("href")
             if href and "http" in href:
                 driver.quit()
+                print(href)
                 return href
 
     except Exception as e:
@@ -78,3 +80,4 @@ def pageScrapper(url: str):
 
     except Exception as e:
         return None
+

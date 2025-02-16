@@ -31,13 +31,13 @@ class Agent:
             print(e)
             return None
     
-    def advice(self, problem: str, solution: str):
+    def advice(self, problem: str, solution: str, focus: str):
         messages = [(
             "system",
-            "You are a helpful assistant that provides strategic advice",
+            f"You are strategic advisor for businesses who provides strategic advice on the focus, '{focus}'. Your response must be in depth and deep. You must think and then respond.",
         ), ("human", f"Following is the problem which the user has identified:{problem} | Following is the solution that the chatbot offers: {solution} | ")]
-        # template = ("human", f"{problem} {solution}")
-        pass
+        response = self.__respond(messages)
+        return response
 
     def findIndustry(self, problem: str, solution: str):
         messages = [
