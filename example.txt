@@ -1,0 +1,14 @@
+```json
+[
+  "commission free food delivery app",
+  "low commission food delivery app",
+  "AI powered route optimization food delivery",
+  "healthy food delivery app",
+  "home chef meal delivery app",
+  "challenges of food delivery industry",
+  "profit margins local restaurants food delivery",
+  "food delivery logistics optimization",
+  "alternatives to Grubhub and DoorDash",
+  "market share of food delivery apps"
+]
+```

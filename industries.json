@@ -1,0 +1,156 @@
+{
+    "Advertising & Marketing": ["Advertising", "Brands & Leaders", "Marketing"],
+    "Agriculture": ["Farming", "Fisheries & Aquaculture", "Forestry"],
+    "Chemicals & Resources": [
+        "Chemical Industry",
+        "Fossil Fuels",
+        "Mining, Metals & Minerals",
+        "Petroleum & Refinery",
+        "Plastic & Rubber",
+        "Pulp & Paper"
+    ],
+    "Construction": ["Building Construction", "Heavy Construction"],
+    "Consumer Goods & FMCG": [
+        "Alcoholic Beverages",
+        "Apparel & Shoes",
+        "Cannabis",
+        "Cleaning Products",
+        "Cosmetics & Personal Care",
+        "Food & Nutrition",
+        "Furniture, Furnishings & Household Items",
+        "Garden & Patio",
+        "Home Improvement",
+        "Non-alcoholic Beverages",
+        "Pets & Animal Supplies",
+        "Tobacco",
+        "Toys"
+    ],
+    "E-Commerce": [
+        "B2B E-Commerce",
+        "B2C E-Commerce",
+        "C2C E-Commerce",
+        "Digital Shopping Behaviour",
+        "Key Figures of E-Commerce",
+        "Paid Content"
+    ],
+    "Economy & Politics": ["Economy", "International", "Politics & Government"],
+    "Energy & Environment": [
+        "Climate and Weather",
+        "Emissions",
+        "Energy",
+        "Environmental Technology & Greentech",
+        "Waste Management",
+        "Water & Wastewater"
+    ],
+    "Finance & Insurance": [
+        "Financial Institutions",
+        "Financial Instruments & Investments",
+        "Financial Services",
+        "Insurance"
+    ],
+    "Health, Pharma & Medtech": [
+        "Care & Support",
+        "Health Professionals & Hospitals",
+        "Health System",
+        "Medical Technology",
+        "Pharmaceutical Products & Market",
+        "State of Health"
+    ],
+    "Internet": [
+        "Communications",
+        "Cyber Crime & Security",
+        "Demographics & Use",
+        "Mobile Internet & Apps",
+        "Online Search",
+        "Online Video & Entertainment",
+        "Reach & Traffic",
+        "Social Media & User-Generated Content"
+    ],
+    "Life": [
+        "Celebrities",
+        "Family & Friends",
+        "Love & Sex",
+        "Personality & Behavior",
+        "Public and religious holidays"
+    ],
+    "Media": [
+        "Audio",
+        "Books & Publishing",
+        "News",
+        "TV, Video & Film",
+        "Video Gaming & eSports"
+    ],
+    "Metals & Electronics": [
+        "Aerospace & Defense Manufacturing",
+        "Electronics",
+        "Industrial Machinery Manufacturing",
+        "Metals",
+        "Rolling Stock Manufacturing",
+        "Shipbuilding",
+        "Vehicle Manufacturing"
+    ],
+    "Real Estate": [
+        "Commercial Real Estate",
+        "Industrial Real Estate",
+        "Mortgages & Financing",
+        "Property Services",
+        "Residential Real Estate"
+    ],
+    "Retail & Trade": [
+        "DIY Retail",
+        "Fashion & Accessories",
+        "Food & Beverage",
+        "Furniture Retail",
+        "General Merchandise",
+        "Health & Hygiene",
+        "International Trade",
+        "Office Supplies",
+        "Private Label",
+        "Retail Technology",
+        "Shopping Behavior",
+        "Sports & Leisure",
+        "Subscriptions & Direct Selling",
+        "Supply Chain",
+        "Wholesale"
+    ],
+    "Services": ["Business Services", "Skilled Labor"],
+    "Society": [
+        "Crime & Law Enforcement",
+        "Demographics",
+        "Education & Science",
+        "Geography & Nature",
+        "Historical Data",
+        "Religion"
+    ],
+    "Sports & Recreation": [
+        "Art & Culture",
+        "Gambling",
+        "Hobbies",
+        "Parks & Outdoors",
+        "Professional Sports",
+        "Sports & Fitness",
+        "Wellness & Spas"
+    ],
+    "Technology & Telecommunications": [
+        "Consumer Electronics",
+        "Hardware",
+        "Household Appliances",
+        "IT Services",
+        "Software",
+        "Telecommunications"
+    ],
+    "Transportation & Logistics": [
+        "Aviation",
+        "Logistics",
+        "Public Transportation & Mobility Services",
+        "Rail Transport",
+        "Vehicles & Road Traffic",
+        "Water Transport"
+    ],
+    "Travel, Tourism & Hospitality": [
+        "Accommodation",
+        "Business Travel",
+        "Food & Drink Services",
+        "Leisure Travel"
+    ]
+}
